@@ -27,7 +27,6 @@ This tool facilitates opening and closing GLPI tickets when a trigger alert is g
 6. Configure Action
    * Set Default message for Operations, Recovery operations, Acknowledgement operations
       ```
-      Operations Default Message
       action=trigger_action
       eventid={EVENT.ID}
       eventvalue={EVENT.VALUE}
