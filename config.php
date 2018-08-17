@@ -1,10 +1,10 @@
 <?php
 $config = array(
 ## Required ##
-'glpi_user'					      => '',
-'glpi_password'			      => '',
-'glpi_apikey'				      => '',
-'glpi_host'					      => '',
+'glpi_user'								=> '',
+'glpi_password'						=> '',
+'glpi_apikey'							=> '',
+'glpi_host'								=> '',
 'zabbix_user'				      => '',
 'zabbix_password'			    => '',
 'zabbix_host'				      => '',
