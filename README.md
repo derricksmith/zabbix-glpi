@@ -1,4 +1,4 @@
-# Create GLPI tickets from Zabbix trigger actions
+# Zabbix / GLPI Integration
 
 This tool facilitates opening and closing GLPI tickets when a trigger alert is generated in Zabbix.  The tool relies on the GLPI and Zabbix API.
 
