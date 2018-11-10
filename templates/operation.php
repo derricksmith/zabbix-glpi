@@ -10,9 +10,9 @@ Name: <i><?php echo $itemname; ?></i><br>
 Key: <i><?php echo $itemkey; ?></i><br>
 Value: <i><?php echo $itemvalue; ?></i><br></p>
 <p>Some info about this server:</p>
-Item graph: <a href="https://monitor.denvest.com/zabbix/history.php?action=showgraph&itemids[]=<?php echo $itemid; ?>">Graph Link</a><br>
-Item history: <a href="https://monitor.denvest.com/zabbix/history.php?action=showvalues&itemids[]=<?php echo $itemid; ?>">History Link</a><br>
-Graph direct image: <img src="https://monitor.denvest.com/zabbix/chart.php?itemids[]=<?php echo $itemid; ?>" />
+Item graph: <a href="https://{zabbix-server}/zabbix/history.php?action=showgraph&itemids[]=<?php echo $itemid; ?>">Graph Link</a><br>
+Item history: <a href="https://{zabbix-server}/zabbix/history.php?action=showvalues&itemids[]=<?php echo $itemid; ?>">History Link</a><br>
+Graph direct image: <img src="https://{zabbix-server}/zabbix/chart.php?itemids[]=<?php echo $itemid; ?>" />
 <br>
 <p>Original event ID: <i><?php echo $eventid; ?></i></p>
 <br>

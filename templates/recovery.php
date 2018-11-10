@@ -14,9 +14,9 @@ Name: <i>{ITEM.NAME1}</i><br>
 Key: <i>{ITEM.KEY1}</i><br>
 Value: <i>{ITEM.VALUE1}</i><br></p>
 <p>Some info about this server:</p>
-Item graph: http://10.100.10.20/zabbix/history.php?action=showgraph&itemids[]={ITEM.ID1}
-Item history: http://10.100.10.20/zabbix/history.php?action=showvalues&itemids[]={ITEM.ID1}
-Graph direct image: <img src="http://10.100.10.20/zabbix/chart.php?itemids[]={ITEM.ID1}"
+Item graph: http://{zabbix-server}/zabbix/history.php?action=showgraph&itemids[]={ITEM.ID1}
+Item history: http://{zabbix-server}/zabbix/history.php?action=showvalues&itemids[]={ITEM.ID1}
+Graph direct image: <img src="http://{zabbix-server}/zabbix/chart.php?itemids[]={ITEM.ID1}"
 <p><b>Uptime: </b><i>{{HOST.HOST}:system.uptime.last()}</i></p>
 <p><b>CPU usage:</b><br>
 Latest value: <i>{{HOST.HOST}:system.cpu.util[,,avg1].last()}</i><br>
